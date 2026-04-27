@@ -1,2 +1,117 @@
-# My-first-html-project-
-I am the first learner of html 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Nesradin Ahmedkemal</h1>
+        <p>Welcome to my personal website</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- ABOUT SECTION -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a student learning HTML and web development.
+            I enjoy building simple websites and improving my skills.
+        </p>
+
+        <img src="profile.jpg" width="200" alt="My Photo">
+    </section>
+
+    <hr>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Basic Programming</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- EDUCATION TABLE -->
+    <section>
+        <h2>Education</h2>
+
+        <table border="1">
+            <tr>
+                <th>Year</th>
+                <th>School</th>
+                <th>Level</th>
+            </tr>
+
+            <tr>
+                <td>2023</td>
+                <td>ABC School</td>
+                <td>High School</td>
+            </tr>
+
+            <tr>
+                <td>2026</td>
+                <td>XYZ University</td>
+                <td>Undergraduate</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- CONTACT FORM -->
+    <section>
+        <h2>Contact Me</h2>
+
+        <form>
+            <label>Name:</label><br>
+            <input type="text"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female<br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript<br><br>
+
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- LINK -->
+    <section>
+        <h2>Visit My Favorite Site</h2>
+        <a href="https://www.youtube.com">Go to YouTube</a>
+    </section>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Nesradin. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
