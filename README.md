@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Portfolio</title>
+    <title>My first project</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
             I enjoy building simple websites and improving my skills.
         </p>
 
-        <img src="profile.jpg" width="200" alt="My Photo">
+        <img src="#" width="200" alt="My Photo">
     </section>
 
     <hr>
